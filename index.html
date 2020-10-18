@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        text-align: center;
+      }
+      #img-div {
+        text-align: center;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      #image {
+        max-width: 500px;
+        display: block;
+      }
+      #img-caption {
+        font-size: 30px;
+      }
+      #tribute-link {
+        color: darkred;
+      }
+
+  /* Create four equal columns that sits next to each other */
+      .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+
+    }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+
+     <h1 id="title">Fatherhood</h1>
+
+     <div id="img-div">
+       <div class="row">
+         <div class="column"></div>
+         <div class="column">
+          <img src="images/Photo-of -Fatherhood.png" alt="Photo of Fatherhood" id="image">
+          <img src="images/Grandfather-Father-Grandson.jpg" alt="Grandfather Father Grandson" id="image">
+          <img src="images/Father-Teaching-Daughter-to-Ride-Bike.jpg" alt="Father Teaching Daughter to Ride Bike">       
+          <img src="images/Father-holding-daughter.jpg" alt="Father holding daughter" id="image">
+          <img src="images/Father-and-Child-Sleeping.jpeg" alt="Father and Child Sleeping" id="image">
+        </div>
+        <div class="column"> 
+          <img src="images/Father-and-Children-Reading.jpeg" alt="Father and Children Reading" id="image">
+          <img src="images/Young-Man-with-Father.jpg" alt="Young Man with Father">
+          <img src="images/Stroll-with-Daughter.jpg" alt="Stroll with Daughter">
+          <img src="images/Funny-Father-and-Son-Shirts.jpg" alt="Funny Father and Son Shirts">
+        </div>
+        <div class="column"></div>
+      </div>
+       <p><p id="img-caption">
+        <em>One of the Greatest Joys as a Man.</em></p></p>
+     </div>
+     <div id="tribute-info">
+       <br>
+       <p><b>Sigmund Freud</b></p>
+       <p>“I cannot think of any need in childhood as strong as the need for a father’s protection.”</p>
+       <br>
+       <p><b>Tom Wolfe</b></p>
+       <p>“[Man adopts] a role called Being a Father so that his child would have something mythical and infinitely important: a Protector, who would keep a lid on all the chaotic and catastrophic possibilities of life.”</p>
+       <br>
+       <p><b>Frederick Douglas</b></p>
+       <p>“It is easier to build strong children than to repair broken men.”</p>
+       <br>
+       <p><b>Charles Kettering</b></p>
+       <p>“Every father should remember one day his son will follow his example, not his advice.”</p>
+       <br>
+       <p><b>Mark Twain</b></p>
+       <p>“When I was a boy of 14, my father was so ignorant I could hardly stand to have the old man around. But when I got to be 21, I was astonished at how much he had learned in seven years.”</p>
+       <br>
+       <p><b>Mike Myers</b></p>
+       <p>“Anyone who tells you fatherhood is the greatest thing that can happen to you, they are understating it”</p>
+     </div>
+      <a href="https://en.wikipedia.org/wiki/Father" target="_blank" id="tribute-link" style="text-align: center;">Learn more about Fatherhood.</a>
+    </div>
+  </body>
+
+
+
+
+
+
+
+
+</html>
